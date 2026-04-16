@@ -4,6 +4,7 @@ import heroImg from "@/assets/hero-buque.webp";
 import lauraImg from "@/assets/laura.webp";
 import processoImg from "@/assets/processo.webp";
 import workshopVideoImg from "@/assets/workshop-video.webp";
+import handifyOfertaImg from "@/assets/handify-oferta.webp";
 
 const CHECKOUT_URL = "#checkout";
 
@@ -302,6 +303,13 @@ const Index = () => {
             <h2 className="font-serif text-2xl sm:text-3xl font-bold">
               Workshop Buquê de Velas com Laura Martins
             </h2>
+
+            <img
+              src={handifyOfertaImg}
+              alt="Handify - Workshop Buquê de Velas"
+              loading="lazy"
+              className="mx-auto mt-6 h-auto w-full max-w-md"
+            />
 
             <div className="mt-6 flex items-end justify-center gap-3">
               <span className="text-lg text-muted-foreground line-through">De R$97</span>
