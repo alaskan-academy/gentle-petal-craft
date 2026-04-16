@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Check, X, Lock, Zap, Smartphone, ChevronDown, Flame } from "lucide-react";
 import heroImg from "@/assets/hero-buque.webp";
-import lauraImg from "@/assets/laura.jpg";
+import lauraImg from "@/assets/laura.webp";
 import processoImg from "@/assets/processo.jpg";
 
 const CHECKOUT_URL = "#checkout";
