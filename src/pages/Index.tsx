@@ -3,6 +3,7 @@ import { Check, X, Lock, Zap, Smartphone, ChevronDown, Flame } from "lucide-reac
 import heroImg from "@/assets/hero-buque.webp";
 import lauraImg from "@/assets/laura.webp";
 import processoImg from "@/assets/processo.jpg";
+import workshopVideoImg from "@/assets/workshop-video.webp";
 
 const CHECKOUT_URL = "#checkout";
 
@@ -128,6 +129,15 @@ const Index = () => {
           <h2 className="mt-2 text-center font-serif text-3xl sm:text-4xl font-bold">
             Tudo que você precisa saber pra sair com um buquê pronto
           </h2>
+
+          <div className="mt-8">
+            <img
+              src={workshopVideoImg}
+              alt="Prévia do workshop de buquê de velas"
+              loading="lazy"
+              className="h-auto w-full"
+            />
+          </div>
 
           <ul className="mt-10 space-y-4 reveal">
             {[
