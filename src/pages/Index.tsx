@@ -6,10 +6,10 @@ import processoImg from "@/assets/processo.webp";
 import workshopVideoImg from "@/assets/workshop-video.webp";
 import handifyOfertaImg from "@/assets/handify-oferta.webp";
 
-const CHECKOUT_URL = "#checkout";
+const CHECKOUT_URL = "https://checkout.payt.com.br/4a16a8b016e57ddbc65167571f44e7d7";
 
 const CTA = ({ children = "Quero meu lugar agora →" }: { children?: React.ReactNode }) => (
-  <a href={CHECKOUT_URL} className="btn-cta">
+  <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
     {children}
   </a>
 );
@@ -58,8 +58,7 @@ const Index = () => {
             />
           </div>
 
-          <div className="mt-8 flex flex-col items-center gap-3">
-            <CTA />
+          <div className="mt-8">
             <p className="text-sm text-muted-foreground">
               Apenas <span className="font-semibold text-foreground">R$37</span> — acesso imediato
             </p>
@@ -160,9 +159,6 @@ const Index = () => {
             ))}
           </ul>
 
-          <div className="mt-10 flex justify-center">
-            <CTA>Quero garantir minha vaga →</CTA>
-          </div>
         </div>
       </section>
 
@@ -245,9 +241,6 @@ const Index = () => {
           <p className="mt-3 text-lg text-foreground font-medium">
             Quem deixar pra depois vai assistir outras pessoas faturando — de novo.
           </p>
-          <div className="mt-8 flex justify-center">
-            <CTA />
-          </div>
         </div>
       </section>
 
