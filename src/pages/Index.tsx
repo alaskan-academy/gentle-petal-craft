@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Check, X, Lock, Zap, Smartphone, ChevronDown, Flame } from "lucide-react";
+import { BuqueCarousel } from "@/components/BuqueCarousel";
 import heroImg from "@/assets/hero-buque.webp";
 import lauraImg from "@/assets/laura.webp";
 import processoImg from "@/assets/processo.webp";
@@ -241,6 +242,9 @@ const Index = () => {
           <p className="mt-3 text-lg text-foreground font-medium">
             Quem deixar pra depois vai assistir outras pessoas faturando — de novo.
           </p>
+        </div>
+        <div className="mt-10">
+          <BuqueCarousel />
         </div>
       </section>
 
