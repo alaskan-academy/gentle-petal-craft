@@ -58,8 +58,7 @@ const Index = () => {
             />
           </div>
 
-          <div className="mt-8 flex flex-col items-center gap-3">
-            <CTA />
+          <div className="mt-8">
             <p className="text-sm text-muted-foreground">
               Apenas <span className="font-semibold text-foreground">R$37</span> — acesso imediato
             </p>
@@ -160,9 +159,6 @@ const Index = () => {
             ))}
           </ul>
 
-          <div className="mt-10 flex justify-center">
-            <CTA>Quero garantir minha vaga →</CTA>
-          </div>
         </div>
       </section>
 
@@ -245,9 +241,6 @@ const Index = () => {
           <p className="mt-3 text-lg text-foreground font-medium">
             Quem deixar pra depois vai assistir outras pessoas faturando — de novo.
           </p>
-          <div className="mt-8 flex justify-center">
-            <CTA />
-          </div>
         </div>
       </section>
 
