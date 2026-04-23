@@ -6,6 +6,7 @@ import lauraImg from "@/assets/laura.webp";
 import processoImg from "@/assets/processo.webp";
 import workshopVideoImg from "@/assets/workshop-video.webp";
 import handifyOfertaImg from "@/assets/handify-oferta.webp";
+import buque34Img from "@/assets/buque-34.webp";
 
 const CHECKOUT_URL = "https://checkout.payt.com.br/4a16a8b016e57ddbc65167571f44e7d7";
 
@@ -374,6 +375,14 @@ const Index = () => {
           <h2 className="font-serif text-3xl sm:text-4xl font-bold leading-tight">
             Em menos de 2 horas, você pode ter um buquê de velas nas mãos.
           </h2>
+          <div className="mt-8 overflow-hidden rounded-3xl shadow-soft">
+            <img
+              src={buque34Img}
+              alt="Buquês de velas em formato de rosas cor-de-rosa"
+              loading="lazy"
+              className="h-auto w-full object-cover"
+            />
+          </div>
           <p className="mt-5 text-lg text-muted-foreground">
             Por apenas <span className="font-semibold text-foreground">R$37</span>. Uma vez.
           </p>
