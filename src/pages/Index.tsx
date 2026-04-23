@@ -245,6 +245,9 @@ const Index = () => {
         </div>
         <div className="mt-10">
           <BuqueCarousel />
+          <p className="mt-6 text-center text-base sm:text-lg text-muted-foreground italic px-4">
+            Fotos de buquês de velas de alunas do Workshop. A próxima a enviar a foto pode ser você.
+          </p>
         </div>
       </section>
 
