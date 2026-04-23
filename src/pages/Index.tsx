@@ -6,10 +6,10 @@ import processoImg from "@/assets/processo.webp";
 import workshopVideoImg from "@/assets/workshop-video.webp";
 import handifyOfertaImg from "@/assets/handify-oferta.webp";
 
-const CHECKOUT_URL = "#checkout";
+const CHECKOUT_URL = "https://checkout.payt.com.br/4a16a8b016e57ddbc65167571f44e7d7";
 
 const CTA = ({ children = "Quero meu lugar agora →" }: { children?: React.ReactNode }) => (
-  <a href={CHECKOUT_URL} className="btn-cta">
+  <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
     {children}
   </a>
 );
