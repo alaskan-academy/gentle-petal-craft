@@ -395,6 +395,36 @@ const Index = () => {
         </div>
       </section>
 
+      {/* AJUDA WHATSAPP */}
+      <section className="section" style={{ background: "linear-gradient(180deg, hsl(280 40% 96%), hsl(280 35% 92%))" }}>
+        <div className="container-narrow text-center reveal">
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold leading-tight">
+            Ainda ficou com alguma dúvida?
+          </h2>
+          <p className="mt-5 text-lg text-muted-foreground">
+            Nossa equipe de atendimento está pronta pra te ajudar pelo WhatsApp.
+          </p>
+          <p className="mt-2 text-lg text-foreground font-medium">
+            É só clicar no botão abaixo e falar com a gente.
+          </p>
+          <div className="mt-8 flex justify-center">
+            <a
+              href="https://wa.me/message/SRLXSVJDGOQYC1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full px-10 py-5 text-lg font-bold uppercase tracking-wide text-white transition-all duration-300 w-full sm:w-auto hover:-translate-y-0.5 active:translate-y-0"
+              style={{
+                background: "linear-gradient(135deg, hsl(262 70% 52%), hsl(280 75% 45%))",
+                boxShadow: "0 12px 32px -4px hsl(262 70% 52% / 0.55)",
+              }}
+            >
+              <MessageCircle className="h-5 w-5" />
+              Falar com a equipe no WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
       <footer className="py-8 text-center text-xs text-muted-foreground">
         © {new Date().getFullYear()} Workshop Buquê de Velas — Laura Martins
       </footer>
