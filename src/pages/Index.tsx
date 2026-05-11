@@ -8,7 +8,7 @@ import workshopVideoImg from "@/assets/workshop-video.webp";
 import handifyOfertaImg from "@/assets/handify-oferta.webp";
 import buque34Img from "@/assets/buque-34.webp";
 
-const CHECKOUT_URL = "https://wa.me/message/SRLXSVJDGOQYC1";
+const CHECKOUT_URL = "https://checkout.payt.com.br/4a16a8b016e57ddbc65167571f44e7d7";
 
 const CTA = ({ children = "Quero meu lugar agora →" }: { children?: React.ReactNode }) => (
   <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
