@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Check, X, Lock, Zap, Smartphone, ChevronDown, Flame } from "lucide-react";
+import { Check, X, Lock, Zap, Smartphone, ChevronDown, Flame, MessageCircle } from "lucide-react";
 import { BuqueCarousel } from "@/components/BuqueCarousel";
 import heroImg from "@/assets/hero-buque.webp";
 import lauraImg from "@/assets/laura.webp";
