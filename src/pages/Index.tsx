@@ -62,7 +62,7 @@ const Index = () => {
 
           <div className="mt-8">
             <p className="text-sm text-muted-foreground">
-              Apenas <span className="font-semibold text-foreground">R$37</span> — acesso imediato
+              Apenas <span className="font-semibold text-foreground">12x R$4,81</span> ou <span className="font-semibold text-foreground">R$47</span> à vista — acesso imediato
             </p>
           </div>
         </div>
@@ -314,10 +314,10 @@ const Index = () => {
 
             <div className="mt-6 flex items-end justify-center gap-3">
               <span className="text-lg text-muted-foreground line-through">De R$97</span>
-              <span className="font-serif text-5xl sm:text-6xl font-bold text-primary">R$37</span>
+              <span className="font-serif text-5xl sm:text-6xl font-bold text-primary">R$47</span>
             </div>
             <p className="mt-2 text-sm text-muted-foreground">
-              Pagamento único · Acesso imediato
+              Ou 12x R$4,81 · Acesso imediato
             </p>
 
             <div className="mt-8 rounded-2xl bg-primary/5 p-5 text-left">
@@ -336,7 +336,7 @@ const Index = () => {
             </div>
 
             <div className="mt-8 flex justify-center">
-              <CTA>Garantir minha vaga por R$37 →</CTA>
+              <CTA>Garantir minha vaga por R$47 →</CTA>
             </div>
 
             <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
@@ -384,7 +384,7 @@ const Index = () => {
             />
           </div>
           <p className="mt-5 text-lg text-muted-foreground">
-            Por apenas <span className="font-semibold text-foreground">R$37</span>. Uma vez.
+            Por apenas <span className="font-semibold text-foreground">R$47</span> à vista ou <span className="font-semibold text-foreground">12x R$4,81</span>.
           </p>
           <div className="mt-8 flex justify-center">
             <CTA>Quero aprender agora →</CTA>
